@@ -33,16 +33,16 @@ public class Main {
         bootcamp.getConteudos().add(curso2);
         bootcamp.getConteudos().add(mentoria);
 
-        Dev devCamila = new Dev();
-        devCamila.setNome("Camila");
-        devCamila.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
-        devCamila.progredir();
-        devCamila.progredir();
+        Dev devArthur = new Dev();
+        devArthur.setNome("Arthur");
+        devArthur.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos Arthur:" + devArthur.getConteudosInscritos());
+        devArthur.progredir();
+        devArthur.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Camila:" + devCamila.getConteudosConcluidos());
-        System.out.println("XP:" + devCamila.calcularTotalXp());
+        System.out.println("Conteúdos Inscritos Arthur:" + devArthur.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos Arthur:" + devArthur.getConteudosConcluidos());
+        System.out.println("XP:" + devArthur.calcularTotalXp());
 
         System.out.println("-------");
 
